@@ -7,8 +7,12 @@ import {
 import {RestApplication} from '@loopback/rest';
 import * as path from 'path';
 import {MySequence} from './sequence';
+import {ServiceMixin} from '@loopback/service-proxy';
+import {RepositoryMixin} from '@loopback/repository';
 
-export class TodoListApplication extends BootMixin(RestApplication) {
+export class TodoListApplication extends BootMixin(
+  ServiceMixin(RepositoryMixin(RestApplication)),
+) {
   constructor(options: ApplicationConfig = {}) {
     super(options);
 
