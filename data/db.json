@@ -1,13 +1,14 @@
 {
   "ids": {
-    "Todo": 5
+    "Todo": 7
   },
   "models": {
     "Todo": {
       "1": "{\"title\":\"Take over the galaxy\",\"desc\":\"MWAHAHAHAHAHAHAHAHAHAHAHAHAMWAHAHAHAHAHAHAHAHAHAHAHAHA\",\"id\":1}",
       "2": "{\"title\":\"destroy alderaan\",\"desc\":\"Make sure there are no survivors left!\",\"id\":2}",
       "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
-      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}"
+      "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}",
+      "6": "{\"title\":\"make a beast of oneself\",\"desc\":\"he who makes a beast of himself gets rid of the pain of being a man\",\"remindAtAddress\":\"1505 cadence ct. louisville, ky 40222\",\"remindAtGeo\":\"38.270565,-85.60015\",\"id\":6}"
     }
   }
 }
