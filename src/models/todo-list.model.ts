@@ -1,5 +1,4 @@
-import {Entity, model, property} from '@loopback/repository';
-import {hasMany} from '@loopback/repository';
+import {Entity, model, property, hasMany} from '@loopback/repository';
 import {Todo, TodoWithRelations} from './todo.model';
 
 @model({settings: {}})
