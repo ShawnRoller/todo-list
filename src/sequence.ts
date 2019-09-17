@@ -1,4 +1,4 @@
-import {inject} from '@loopback/context';
+import {Context, inject} from '@loopback/context';
 import {
   FindRoute,
   InvokeMethod,
@@ -14,6 +14,7 @@ const SequenceActions = RestBindings.SequenceActions;
 
 export class MySequence implements SequenceHandler {
   constructor(
+    @inject(RestBindings.Http.CONTEXT) public ctx: Context,
     @inject(SequenceActions.FIND_ROUTE) protected findRoute: FindRoute,
     @inject(SequenceActions.PARSE_PARAMS) protected parseParams: ParseParams,
     @inject(SequenceActions.INVOKE_METHOD) protected invoke: InvokeMethod,
