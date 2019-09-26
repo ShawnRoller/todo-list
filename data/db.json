@@ -1,6 +1,7 @@
 {
   "ids": {
-    "Todo": 8
+    "Todo": 10,
+    "TodoList": 1
   },
   "models": {
     "Todo": {
@@ -9,7 +10,10 @@
       "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
       "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}",
       "6": "{\"title\":\"make a beast of oneself\",\"desc\":\"he who makes a beast of himself gets rid of the pain of being a man\",\"remindAtAddress\":\"1505 cadence ct. louisville, ky 40222\",\"remindAtGeo\":\"38.270565,-85.60015\",\"id\":6}",
-      "7": "{\"title\":\"make a beast of oneself\",\"desc\":\"he who makes a beast of himself gets rid of the pain of being a man\",\"remindAtAddress\":\"1505 cadence ct. louisville, ky 40222\",\"remindAtGeo\":\"38.270565,-85.60015\",\"id\":7}"
-    }
+      "7": "{\"title\":\"make a beast of oneself\",\"desc\":\"he who makes a beast of himself gets rid of the pain of being a man\",\"remindAtAddress\":\"1505 cadence ct. louisville, ky 40222\",\"remindAtGeo\":\"38.270565,-85.60015\",\"id\":7}",
+      "8": "{\"title\":\"home improvements\",\"id\":8}",
+      "9": "{\"title\":\"fence\",\"desc\":\"fix the damn fence\",\"remindAtAddress\":\"1505 cadence ct. louisville, ky 40222\",\"todoListId\":8,\"id\":9}"
+    },
+    "TodoList": {}
   }
 }

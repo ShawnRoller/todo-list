@@ -77,7 +77,7 @@ export class TodoController {
         description: 'Array of Todo model instances',
         content: {
           'application/json': {
-            schema: {type: 'array', items: getModelSchemaRef(Todo)},
+            schema: {type: 'array', items: getModelSchemaRef(Todo, {includeRelations: true})},
           },
         },
       },
@@ -115,7 +115,7 @@ export class TodoController {
     responses: {
       '200': {
         description: 'Todo model instance',
-        content: {'application/json': {schema: getModelSchemaRef(Todo)}},
+        content: {'application/json': {schema: getModelSchemaRef(Todo, {includeRelations: true})}},
       },
     },
   })
